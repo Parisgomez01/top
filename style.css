@@ -1,0 +1,237 @@
+/* BODY */
+body {
+    margin: 0;
+    background-color: black;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar a {
+    color: #c21a1e !important;
+  }
+  /* NAVBAR */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 30px 0;
+    background-color: black;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: yellow;
+  }
+  
+  /* LOGO ARRIBA */
+  .logo-top {
+    text-align: center;
+    padding: 220px 0;
+  }
+  
+  .logo-top img {
+    width: 250px;
+  }
+  
+  /* HERO GENERAL */
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 80px; /* espacio entre secciones */
+    overflow: hidden;
+  }
+  
+  /* IMAGEN FONDO */
+  .hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* CAPA OSCURA */
+  .hero::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+  }
+  
+  /* OVERLAY (TEXTO ENCIMA) */
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+    width: 90%;
+  }
+  
+  /* TEXTO */
+  .overlay p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  
+  /* LOGO TEXTO */
+  .logo-texto {
+    width: 300px !important;
+    height: auto !important;
+    max-width: none !important;
+    display: block;
+    margin: 0 auto 30px;
+  }
+  
+ /* SECCIÓN CARDS */
+.seccion-cards {
+    position: relative;
+    padding: 120px 0; /* espacio arriba y abajo */
+  }
+  
+  /* FONDO */
+  .fondo-cards {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  
+  /* CAPA OSCURA */
+  .seccion-cards::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    top: 0;
+    left: 0;
+  }
+  
+  /* CONTENIDO */
+  .contenido-cards {
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* CARDS */
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  /* IMÁGENES DE CARDS */
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  /* CARRUSEL */
+  .carousel img {
+    height: 300px;
+    object-fit: contain;
+  }
+
+  .card {
+    margin: 15px;
+  }
+  
+  body {
+    margin: 0;
+    background: #000;
+    font-family: monospace;
+  }
+  
+  .footer {
+    background: #000;
+    color: #c21a1e;
+    padding: 60px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer-left h3 {
+    letter-spacing: 3px;
+  }
+  
+  .email-box {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .email-box input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #c21a1e;
+    width: 300px;
+    color: #c21a1e;
+    outline: none;
+  }
+  
+  .email-box button {
+    margin-left: 10px;
+    background: transparent;
+    border: 1px solid #c21a1e;
+    color: #c21a1e;
+    padding: 5px 15px;
+    cursor: pointer;
+  }
+  
+  .checkbox {
+    display: flex;
+    gap: 10px;
+    font-size: 10px;
+    max-width: 400px;
+  }
+  
+  .links {
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+  }
+  
+  .links p {
+    margin: 5px 0;
+    cursor: pointer;
+  }
+  
+  .footer-right img {
+    width: 120px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 10px;
+  }
+
+  .links a {
+    display: block;
+    color: #c21a1e;
+    text-decoration: none;
+    margin: 5px 0;
+  }
+  
+  .links a:hover {
+    opacity: 0.7;
+  }
